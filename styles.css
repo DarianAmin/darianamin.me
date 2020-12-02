@@ -22,7 +22,7 @@ body{
   background-color: #c06c84; 
   background-image: linear-gradient(to right,#355c7d,#6c5b7b ,#c06c84 );
   color: white;
-  background-size: auto;
+  min-height: 100vh;
 }
 
 .nav-link-wrapper {
