@@ -20,7 +20,7 @@ body{
   padding: 0;
   height: 200px;
   background-color: #c06c84; 
-  background-image: linear-gradient(to right,#355c7d,#6c5b7b ,#c06c84 );
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
   color: white;
   min-height: 100vh;
 }
