@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding: 29px;
+  border-bottom: 2px solid white;
 }
 
 .left-side{
@@ -18,11 +19,10 @@ body{
   font-family: "helvetica";
   margin: 0;
   padding: 0;
-  height: 200px;
-  background-color:  #537895; 
+  min-height: 100vh;
+  background-color: #c06c84; 
   background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
   color: white;
-  min-height: 100vh;
 }
 
 .nav-link-wrapper {
@@ -86,3 +86,10 @@ img[class^="circle"]{
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  transition: width 2s;
+}
+
+.button:hover {
+
+  width: 200px;
+}
